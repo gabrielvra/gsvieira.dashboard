@@ -53,9 +53,10 @@ class UsuarioGrupo extends MY_Controller {
         $ds_chave = array(
             '-r-dashboard' => set_value('-r-dashboard'), '-c-dashboard' => set_value('-c-dashboard'), '-u-dashboard' => set_value('-u-dashboard'), '-d-dashboard' => set_value('-d-dashboard'),
             '-r-grupousuario' => set_value('-r-grupousuario'), '-c-grupousuario' => set_value('-c-grupousuario'), '-u-grupousuario' => set_value('-u-grupousuario'), '-d-grupousuario' => set_value('-d-grupousuario'),
-            '-r-entidade' => set_value('-r-entidade'), '-c-entidade' => set_value('-c-entidade'), '-u-entidade' => set_value('-u-entidade'), '-d-entidade' => set_value('-d-entidade'),
             '-r-usuario' => set_value('-r-usuario'), '-c-usuario' => set_value('-c-usuario'), '-u-usuario' => set_value('-u-usuario'), '-d-usuario' => set_value('-d-usuario'),
             '-r-pessoa' => set_value('-r-pessoa'), '-c-pessoa' => set_value('-c-pessoa'), '-u-pessoa' => set_value('-u-pessoa'), '-d-pessoa' => set_value('-d-pessoa'),
+            '-r-objeto' => set_value('-r-objeto'), '-c-objeto' => set_value('-c-objeto'), '-u-objeto' => set_value('-u-objeto'), '-d-objeto' => set_value('-d-objeto'),
+            '-r-lancamento' => set_value('-r-lancamento'), '-c-lancamento' => set_value('-c-lancamento'), '-u-lancamento' => set_value('-u-lancamento'), '-d-lancamento' => set_value('-d-lancamento'),
             '-r-sobre' => set_value('-r-sobre'), '-c-sobre' => set_value('-c-sobre'), '-u-sobre' => set_value('-u-sobre'), '-d-sobre' => set_value('-d-sobre')
             );
         $dados = array(

@@ -54,6 +54,22 @@ array('usuariogrupo' => array(
         'label'=>'"e-mail"',
         'rules'=>'required|trim'
     ),
+),
+//CADASTRO DE OBJETO
+'objeto' => array(
+    array(
+        'field'=>'ds_descricao',
+        'label'=>'"descrição"',
+        'rules'=>'required|trim'
+    )
+),
+//CADASTRO DE OBJETO
+'lancamento' => array(
+    array(
+        'field'=>'vl_lancamento',
+        'label'=>'"valor"',
+        'rules'=>'required|trim'
+    )
 )
     
 );

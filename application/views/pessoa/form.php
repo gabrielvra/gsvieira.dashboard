@@ -8,7 +8,7 @@
    		<?php echo form_open('#', 'id="formulario" class="form-horizontal"'); ?>
     		<div class="table-header">
 				<i class="menu-icon fa fa-users"></i>
-				Usuários
+				Cadastro de pessoa
 			</div>
     		<div class="widget-box">
     			<div class="widget-body" id="pessoa_div">

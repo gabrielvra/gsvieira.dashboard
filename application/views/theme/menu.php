@@ -58,9 +58,36 @@
 					</a>
 					<b class="arrow"></b>
 				</li>
+				<li class="">
+					<a href="<?php echo base_url()?>objeto">
+						<i class="menu-icon fa fa-bars"></i>
+						Objeto
+					</a>
+					<b class="arrow"></b>
+				</li>
 			</ul>
 		</li>
 		<?php //} ?>
+		<li class="">
+			<a href="#" class="dropdown-toggle">
+				<i class="menu-icon fa fa-list"></i>
+				<span class="menu-text"> Movimentos </span>
+
+				<b class="arrow fa fa-angle-down"></b>
+			</a>
+
+			<b class="arrow"></b>
+			
+			<ul class="submenu">
+				<li class="">
+					<a href="<?php echo base_url()?>lancamento">
+						<i class="menu-icon fa fa-users"></i>
+						Lançamentos
+					</a>
+					<b class="arrow"></b>
+				</li>
+			</ul>
+		</li>
 		
 		<li class="">
 			<a href="#" class="dropdown-toggle">

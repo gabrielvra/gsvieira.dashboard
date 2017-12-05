@@ -46,9 +46,10 @@
 											<ul class="list-unstyled list-striped pricing-table-header">
 												<li>Dashboard </li>
 												<li>Grupo de usuário </li>
-												<li>Entidade </li>
 												<li>Usuário </li>
 												<li>Pessoa </li>
+												<li>Objeto </li>
+												<li>Lançamento </li>
 												<li>Sobre </li>
 											</ul>
 										</div>
@@ -79,10 +80,6 @@
 													 	<?php echo form_checkbox('-r-grupousuario', '1', isset($ds_chave['-r-grupousuario']) && $ds_chave['-r-grupousuario'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
 													</li>
-													<li> 					
-													 	<?php echo form_checkbox('-r-entidade', '1', isset($ds_chave['-r-entidade']) && $ds_chave['-r-entidade'] == '1' ? true : false, 'class="ace"'); ?>
-														<span class="lbl"></span>
-													</li>
 													<li>
 													 	<?php echo form_checkbox('-r-usuario', '1', isset($ds_chave['-r-usuario']) && $ds_chave['-r-usuario'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
@@ -90,7 +87,16 @@
 													<li>
 													 	<?php echo form_checkbox('-r-pessoa', '1', isset($ds_chave['-r-pessoa']) && $ds_chave['-r-pessoa'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
-													</li>													
+													</li>			
+													<li> 					
+													 	<?php echo form_checkbox('-r-objeto', '1', isset($ds_chave['-r-objeto']) && $ds_chave['-r-objeto'] == '1' ? true : false, 'class="ace"'); ?>
+														<span class="lbl"></span>
+													</li>
+													<li> 					
+													 	<?php echo form_checkbox('-r-lancamento', '1', isset($ds_chave['-r-lancamento']) && $ds_chave['-r-lancamento'] == '1' ? true : false, 'class="ace"'); ?>
+														<span class="lbl"></span>
+													</li>
+									
 													<li>
 													 	<?php echo form_checkbox('-r-sobre', '1', isset($ds_chave['-r-sobre']) && $ds_chave['-r-sobre'] == '1' ? true : false, 'class="ace"'); ?>		
 														<span class="lbl"></span>
@@ -118,10 +124,6 @@
 													 	<?php echo form_checkbox('-c-grupousuario', '1', isset($ds_chave['-c-grupousuario']) && $ds_chave['-c-grupousuario'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
 													</li>
-													<li> 					
-													 	<?php echo form_checkbox('-c-entidade', '1', isset($ds_chave['-c-entidade']) && $ds_chave['-c-entidade'] == '1' ? true : false, 'class="ace"'); ?>
-														<span class="lbl"></span>
-													</li>
 													<li>
 													 	<?php echo form_checkbox('-c-usuario', '1', isset($ds_chave['-c-usuario']) && $ds_chave['-c-usuario'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
@@ -129,7 +131,15 @@
 													<li>
 													 	<?php echo form_checkbox('-c-pessoa', '1', isset($ds_chave['-c-pessoa']) && $ds_chave['-c-pessoa'] == '1' ? true : false, 'class="ace"'); ?>	
 														<span class="lbl"></span>
-													</li>													
+													</li>				
+													<li> 					
+													 	<?php echo form_checkbox('-c-objeto', '1', isset($ds_chave['-c-objeto']) && $ds_chave['-c-objeto'] == '1' ? true : false, 'class="ace"'); ?>
+														<span class="lbl"></span>
+													</li>
+													<li> 					
+													 	<?php echo form_checkbox('-c-lancamento', '1', isset($ds_chave['-c-lancamento']) && $ds_chave['-c-lancamento'] == '1' ? true : false, 'class="ace"'); ?>
+														<span class="lbl"></span>
+													</li>									
 													<li>
 													 	<?php echo form_checkbox('-c-sobre', '1', isset($ds_chave['-c-sobre']) && $ds_chave['-c-sobre'] == '1' ? true : false, 'class="ace"'); ?>		
 														<span class="lbl"></span>
@@ -158,10 +168,6 @@
 													 	<?php echo form_checkbox('-u-grupousuario', '1', isset($ds_chave['-u-grupousuario']) && $ds_chave['-u-grupousuario'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
 													</li>
-													<li> 					
-													 	<?php echo form_checkbox('-u-entidade', '1', isset($ds_chave['-u-entidade']) && $ds_chave['-u-entidade'] == '1' ? true : false, 'class="ace"'); ?>
-														<span class="lbl"></span>
-													</li>
 													<li>
 													 	<?php echo form_checkbox('-u-usuario', '1', isset($ds_chave['-u-usuario']) && $ds_chave['-u-usuario'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
@@ -169,7 +175,15 @@
 													<li>
 													 	<?php echo form_checkbox('-u-pessoa', '1', isset($ds_chave['-u-pessoa']) && $ds_chave['-u-pessoa'] == '1' ? true : false, 'class="ace"'); ?>	
 														<span class="lbl"></span>
-													</li>													
+													</li>
+													<li> 					
+													 	<?php echo form_checkbox('-u-objeto', '1', isset($ds_chave['-u-objeto']) && $ds_chave['-u-objeto'] == '1' ? true : false, 'class="ace"'); ?>
+														<span class="lbl"></span>
+													</li>
+													<li> 					
+													 	<?php echo form_checkbox('-u-lancamento', '1', isset($ds_chave['-u-lancamento']) && $ds_chave['-u-lancamento'] == '1' ? true : false, 'class="ace"'); ?>
+														<span class="lbl"></span>
+													</li>												
 													<li>
 													 	<?php echo form_checkbox('-u-sobre', '1', isset($ds_chave['-u-sobre']) && $ds_chave['-u-sobre'] == '1' ? true : false, 'class="ace"'); ?>		
 														<span class="lbl"></span>
@@ -197,10 +211,6 @@
 													 	<?php echo form_checkbox('-d-grupousuario', '1', isset($ds_chave['-d-grupousuario']) && $ds_chave['-d-grupousuario'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
 													</li>
-													<li> 					
-													 	<?php echo form_checkbox('-d-entidade', '1', isset($ds_chave['-d-entidade']) && $ds_chave['-d-entidade'] == '1' ? true : false, 'class="ace"'); ?>
-														<span class="lbl"></span>
-													</li>
 													<li>
 													 	<?php echo form_checkbox('-d-usuario', '1', isset($ds_chave['-d-usuario']) && $ds_chave['-d-usuario'] == '1' ? true : false, 'class="ace"'); ?>
 														<span class="lbl"></span>
@@ -208,7 +218,15 @@
 													<li>
 													 	<?php echo form_checkbox('-d-pessoa', '1', isset($ds_chave['-d-pessoa']) && $ds_chave['-d-pessoa'] == '1' ? true : false, 'class="ace"'); ?>	
 														<span class="lbl"></span>
-													</li>													
+													</li>			
+													<li> 					
+													 	<?php echo form_checkbox('-d-objeto', '1', isset($ds_chave['-d-objeto']) && $ds_chave['-d-objeto'] == '1' ? true : false, 'class="ace"'); ?>
+														<span class="lbl"></span>
+													</li>
+													<li> 					
+													 	<?php echo form_checkbox('-d-lancamento', '1', isset($ds_chave['-d-lancamento']) && $ds_chave['-d-lancamento'] == '1' ? true : false, 'class="ace"'); ?>
+														<span class="lbl"></span>
+													</li>										
 													<li>
 													 	<?php echo form_checkbox('-d-sobre', '1', isset($ds_chave['-d-sobre']) && $ds_chave['-d-sobre'] == '1' ? true : false, 'class="ace"'); ?>		
 														<span class="lbl"></span>

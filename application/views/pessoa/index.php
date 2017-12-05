@@ -2,7 +2,7 @@
 	<div class="col-xs-12">
 		<div class="table-header">
 			<i class="menu-icon fa fa-users"></i>
-			Usuários
+			Pessoas
 			<div class="pull-right"> 
 				<a href="<?php echo base_url();?>pessoa/view" class="btn btn-block btn-white btn-info btn-round"><i class="ace-icon fa fa-plus green"></i>Adicionar</a>
 			</div>
